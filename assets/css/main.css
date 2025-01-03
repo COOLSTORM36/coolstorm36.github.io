@@ -1843,6 +1843,13 @@ input, select, textarea {
 			padding: 0;
 		}
 
+	.flex-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		gap: 12px;
+		}
+
 /* Button */
 
 	input[type="submit"],
@@ -3383,7 +3390,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > header:before {
-				background: #98dbff;
+				background: #55c3ff;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3396,7 +3403,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
-					background: #98dbff;
+					background: #55c3ff;
 					content: '';
 					display: block;
 					height: 2px;
@@ -3405,7 +3412,7 @@ input, select, textarea {
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
-					background: #98dbff;
+					background: #55c3ff;
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
